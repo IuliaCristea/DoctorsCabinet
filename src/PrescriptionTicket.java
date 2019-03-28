@@ -1,0 +1,4 @@
+enum PrescriptionTicket {
+    MedicalTests,
+    XRays
+}
