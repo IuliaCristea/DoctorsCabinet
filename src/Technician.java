@@ -9,10 +9,12 @@ public class Technician extends Person{
     }
 
     public Specialization getSpecialization() {
+
         return Specialization;
     }
 
     public void setSpecialization(Specialization specialization) {
+
         Specialization = specialization;
     }
 }

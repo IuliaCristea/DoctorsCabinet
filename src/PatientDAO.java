@@ -3,13 +3,13 @@ import java.util.Set;
 
 public class PatientDAO {
 
-    Set<Patient> Patients;
+    private Set<Patient> Patients;
 
-    void addPatient(Patient patient) {
+    public void addPatient(Patient patient) {
         Patients.add(patient);
     }
 
-    void removePatient(Patient patient)
+    public void removePatient(Patient patient)
     {
         Iterator<Patient> iterator = Patients.iterator();
         iterator.hasNext();
@@ -22,20 +22,20 @@ public class PatientDAO {
         }
     }
 
-    void editPatient(Patient patient)
+    public void editPatient(Patient patient)
     {
         Iterator<Patient> iterator = Patients.iterator();
         iterator.hasNext();
         {
             Patient p = iterator.next();
-            if (p == patient)
+            if (p.getCNP() == patient.getCNP())
             {
                 p = patient;
             }
         }
     }
 
-    void addHistory(Patient patient, Consultation consultation)
+    public void addHistory(Patient patient, Consultation consultation)
     {
         Iterator<Patient> iterator = Patients.iterator();
         iterator.hasNext();

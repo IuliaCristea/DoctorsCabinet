@@ -1,10 +1,10 @@
 import java.util.Set;
 
 public class Hospital {
-    String Name;
-    Address Address;
-    Set<Doctor> Doctors;
-    Set<Specialization> Specializations;
+    private String Name;
+    private Address Address;
+    private Set<Doctor> Doctors;
+    private Set<Specialization> Specializations;
 
     public Hospital(String name, Address address, Set<Doctor> doctors, Set<Specialization> specializations) {
         Name = name;

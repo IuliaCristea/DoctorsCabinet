@@ -13,6 +13,9 @@ public class Doctor extends Person {
     }
 
     public void setSpecialization(Specialization specialization) {
+
         Specialization = specialization;
     }
+
+
 }
