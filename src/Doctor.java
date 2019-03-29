@@ -1,6 +1,6 @@
 public class Doctor extends Person {
 
-    Specialization Specialization;
+    private Specialization Specialization;
 
     public Doctor(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
                   String street, int streetNumber, String building, int floor, int apRoom)

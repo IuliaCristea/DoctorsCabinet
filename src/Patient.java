@@ -6,7 +6,7 @@ import java.util.Dictionary;
 
 public class Patient extends Person{
 
-    protected History History;
+    private  History History;
 
     public Patient(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
                    String street, int streetNumber, String building, int floor, int apRoom)

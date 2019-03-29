@@ -2,7 +2,7 @@ import java.util.Set;
 
 public class History {
 
-    Set<Consultation> History;
+    private Set<Consultation> History;
 
     public Set<Consultation> getHistory() {
         return History;

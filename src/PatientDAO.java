@@ -43,7 +43,7 @@ public class PatientDAO {
             Patient p = iterator.next();
             if (p == patient)
             {
-                p.History.addConsultation(consultation);
+                p.getHistory().addConsultation(consultation);
             }
         }
     }

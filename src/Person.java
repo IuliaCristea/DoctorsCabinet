@@ -7,14 +7,14 @@ import java.util.Dictionary;
 
 
 public class Person {
-    protected String FirstName;
-    protected String LastName;
-    protected String CNP;
-    protected LocalDate DateOfBirth;
-    protected int Age;
-    protected String Gender;
-    protected Address Address;
-    protected String Phone;
+    private String FirstName;
+    private  String LastName;
+    private  String CNP;
+    private  LocalDate DateOfBirth;
+    private  int Age;
+    private  String Gender;
+    private  Address Address;
+    private  String Phone;
 
     //protected Dictionary<Date, Dictionary<MedicalDepartment, Diagnosis>> History;
 

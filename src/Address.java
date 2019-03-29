@@ -1,9 +1,9 @@
 public class Address {
-    String Street;
-    int StreetNumber;
-    String Building;
-    int Floor;
-    int ApartmentOrRoom;
+    private String Street;
+    private int StreetNumber;
+    private String Building;
+    private int Floor;
+    private int ApartmentOrRoom;
 
     public void setStreet(String street) {
         Street = street;
