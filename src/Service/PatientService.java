@@ -20,7 +20,7 @@ public class PatientService {
         var patients = patientDAO.getPatients();
         for(var p : patients)
         {
-            if(cnp == p.getCNP())
+            if(cnp.equals(p.getCNP()))
             {
                 p.setPresent(true);
                 flag = true; //found the old patient
@@ -37,7 +37,7 @@ public class PatientService {
 
     public void CheckOutPatient(String cnp, String doctorFirstName, String doctorLastName, String hospitalname)
     {
-
+        //de facut
     }
 
     public void RegisterNewPatient(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
