@@ -1,15 +1,26 @@
+package DAO;
+
+import Classes.Doctor;
+import Classes.Patient;
+
 import java.util.Iterator;
+import java.util.Queue;
 import java.util.Set;
 
 public class DoctorDAO {
-    Set<Doctor> Doctors;
+    private static Set<Doctor> Doctors;
 
-    void addDoctor(Doctor doctor)
+    public Set<Doctor> getDoctors()
+    {
+        return Doctors;
+    }
+
+    public void addDoctor(Doctor doctor)
     {
         Doctors.add(doctor);
     }
 
-    void removeDoctor(Doctor doctor)
+    public void removeDoctor(Doctor doctor)
     {
         Iterator<Doctor> iterator = Doctors.iterator();
         iterator.hasNext();
@@ -22,7 +33,7 @@ public class DoctorDAO {
         }
     }
 
-    void editDoctor(Doctor doctor)
+    public void editDoctor(Doctor doctor)
     {
         Iterator<Doctor> iterator = Doctors.iterator();
         iterator.hasNext();
@@ -33,5 +44,15 @@ public class DoctorDAO {
                 d=doctor;
             }
         }
+    }
+
+    public void addToQueue(Doctor doctor, Patient patient)
+    {
+        doctor.getWaitingQueue().add(patient);
+    }
+
+    public void removeFromQueue(Doctor doctor)
+    {
+        doctor.getWaitingQueue().poll();
     }
 }

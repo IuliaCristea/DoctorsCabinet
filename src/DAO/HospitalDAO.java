@@ -1,3 +1,7 @@
+package DAO;
+
+import Classes.Hospital;
+
 import java.util.Iterator;
 import java.util.Set;
 

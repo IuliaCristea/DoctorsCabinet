@@ -1,24 +1,23 @@
-import java.lang.reflect.GenericArrayType;
+package Classes;
+
+import Classes.Address;
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
-import java.util.Dictionary;
 
 
 public class Person {
-    protected String FirstName;
-    protected String LastName;
-    protected String CNP;
-    protected LocalDate DateOfBirth;
-    protected int Age;
-    protected String Gender;
-    protected Address Address;
-    protected String Phone;
+    private String FirstName;
+    private String LastName;
+    private String CNP;
+    private LocalDate DateOfBirth;
+    private int Age;
+    private String Gender;
+    private Classes.Address Address;
+    private String Phone;
 
-    //protected Dictionary<Date, Dictionary<MedicalDepartment, Diagnosis>> History;
-
-    public Person(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
+    protected Person(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
                   String street, int streetNumber, String building, int floor, int apRoom)
     {
         this.FirstName = firstName;

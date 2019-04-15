@@ -1,8 +1,13 @@
+package Classes;
+
+import Classes.Address;
+import Classes.Doctor;
+
 import java.util.Set;
 
 public class Hospital {
     private String Name;
-    private Address Address;
+    private Classes.Address Address;
     private Set<Doctor> Doctors;
     private Set<Specialization> Specializations;
 

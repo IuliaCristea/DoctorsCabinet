@@ -1,15 +1,16 @@
+package Classes;
 
 import java.time.LocalDate;
 import java.util.Set;
 
 public class Consultation {
-    LocalDate Date;
-    Doctor Doctor;
-    Specialization Specialization;
-    String Diagnosis;
-    Set<String> Observations;
-    String Recipe;
-    PrescriptionTicket Ticket;
+    private LocalDate Date;
+    private Doctor Doctor;
+    private Specialization Specialization;
+    private String Diagnosis;
+    private Set<String> Observations;
+    private String Recipe;
+    private PrescriptionTicket Ticket;
 
     public LocalDate getDate() {
         return Date;

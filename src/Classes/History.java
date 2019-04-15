@@ -1,3 +1,7 @@
+package Classes;
+
+import Classes.Consultation;
+
 import java.util.Set;
 
 public class History {

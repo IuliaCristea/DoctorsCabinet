@@ -1,6 +1,11 @@
+package Classes;
+
+import java.util.Queue;
+
 public class Doctor extends Person {
 
-    Specialization Specialization;
+    private Specialization Specialization;
+    private static Queue<Patient> WaitingQueue;
 
     public Doctor(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
                   String street, int streetNumber, String building, int floor, int apRoom)
@@ -17,5 +22,9 @@ public class Doctor extends Person {
         Specialization = specialization;
     }
 
+    public Queue<Patient> getWaitingQueue()
+    {
+        return WaitingQueue;
+    }
 
 }

@@ -1,3 +1,5 @@
+package Classes;
+
 enum Specialization {
     Pediatrics,
     Neurology,

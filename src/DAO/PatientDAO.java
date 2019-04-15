@@ -1,9 +1,18 @@
+package DAO;
+import Classes.Consultation;
+import Classes.History;
+import Classes.Patient;
 import java.util.Iterator;
 import java.util.Set;
 
 public class PatientDAO {
 
-    private Set<Patient> Patients;
+    private static Set<Patient> Patients;
+
+    public Set<Patient> getPatients()
+    {
+        return Patients;
+    }
 
     public void addPatient(Patient patient) {
         Patients.add(patient);
@@ -43,7 +52,9 @@ public class PatientDAO {
             Patient p = iterator.next();
             if (p == patient)
             {
-                p.History.addConsultation(consultation);
+                History h = p.getHistory();
+                h.addConsultation(consultation);
+                p.setHistory(h);
             }
         }
     }
