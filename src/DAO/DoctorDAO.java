@@ -1,8 +1,11 @@
 package DAO;
 
+import Classes.Consultation;
 import Classes.Doctor;
 import Classes.Patient;
+import Classes.PrescriptionTicket;
 
+import java.time.LocalDate;
 import java.util.Iterator;
 import java.util.Queue;
 import java.util.Set;
@@ -54,5 +57,13 @@ public class DoctorDAO {
     public void removeFromQueue(Doctor doctor)
     {
         doctor.getWaitingQueue().poll();
+    }
+
+    public Consultation makeConsultation(Doctor doctor, LocalDate date, String diagnosis, Set<String>observations, String recipe, PrescriptionTicket ticket)
+    {
+        Consultation consultation = doctor.makeConsultation(date,diagnosis,observations,recipe,ticket);
+        consultation.setDoctor(doctor);
+        consultation.setSpecialization(doctor.getSpecialization());
+        return consultation;
     }
 }

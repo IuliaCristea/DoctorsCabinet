@@ -1,6 +1,6 @@
 package Classes;
 
-enum PrescriptionTicket {
+public enum PrescriptionTicket {
     MedicalTests,
     XRays
 }

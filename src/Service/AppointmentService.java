@@ -10,10 +10,21 @@ import java.time.LocalDate;
 
 public class AppointmentService
 {
-    public void makeAppointment(Patient patient, Doctor doctor, Hospital hospital, LocalDate date, AppointmentDAO appointments)
+    private static AppointmentDAO appointments;
+
+    public static AppointmentDAO getAppointments() {
+        return appointments;
+    }
+
+    public static void setAppointments(AppointmentDAO appointments) {
+        AppointmentService.appointments = appointments;
+    }
+
+    public void makeAppointment(Patient patient, Doctor doctor, Hospital hospital, LocalDate date)
     {
         Appointment app = new Appointment(patient,doctor,hospital,date);
         appointments.addAppointment(app);
     }
+
 
 }

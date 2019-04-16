@@ -12,6 +12,18 @@ public class Consultation {
     private String Recipe;
     private PrescriptionTicket Ticket;
 
+    public Consultation(){}
+
+    public Consultation(LocalDate date, Classes.Doctor doctor, Classes.Specialization specialization, String diagnosis, Set<String> observations, String recipe, PrescriptionTicket ticket) {
+        Date = date;
+        Doctor = doctor;
+        Specialization = specialization;
+        Diagnosis = diagnosis;
+        Observations = observations;
+        Recipe = recipe;
+        Ticket = ticket;
+    }
+
     public LocalDate getDate() {
         return Date;
     }

@@ -1,5 +1,6 @@
 package Service;
 
+import Classes.Consultation;
 import Classes.Patient;
 import DAO.DoctorDAO;
 import DAO.PatientDAO;
@@ -11,7 +12,7 @@ import java.util.Set;
 import static DAO.DoctorDAO.Doctors;
 
 public class PatientService {
-    private PatientDAO patientDAO;
+    private static PatientDAO patientDAO;
 
     public void CheckInPatient(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
                                String street, int streetNumber, String building, int floor, int apRoom, String doctorName, String hospitalName )
@@ -35,9 +36,16 @@ public class PatientService {
         }
     }
 
-    public void CheckOutPatient(String cnp, String doctorFirstName, String doctorLastName, String hospitalname)
+    public void CheckOutPatient(String cnpPatient, String doctorFirstName, String doctorLastName, String hospitalname, Consultation consultation)
     {
-        //de facut
+        var patients = patientDAO.getPatients();
+        for(var p : patients)
+        {
+            if(cnpPatient.equals(p.getCNP()))
+            {
+                patientDAO.addHistory(p,consultation);
+            }
+        }
     }
 
     public void RegisterNewPatient(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
