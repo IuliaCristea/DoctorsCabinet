@@ -23,7 +23,7 @@ public class DoctorConsole {
 
         System.out.println("Hello! Please register: introduce your cnp:");
         var cnp = scanner.nextLine();
-        doctor = jpaDoctorDAO.getById(cnp);
+        this.doctor = jpaDoctorDAO.getById(cnp);
 
         System.out.println(String.format("Hello {0}! What do you want to do?",doctor.getFirstName()+" " + doctor.getLastName()));
         System.out.println("Show appointments, make consultation");
@@ -69,7 +69,7 @@ public class DoctorConsole {
                 ps = PrescriptionTicket.XRays;
                 break;
         }
-        jpaDoctorDAO.makeConsultation(cnp_p,date,diagnosis,observations,recipe,ps);
+        doctor.makeConsultation(cnp_p,date,diagnosis,observations,recipe,ps);
     }
 
     private void ShowAppointments() {

@@ -190,15 +190,15 @@ public class JPAConsultationDAO implements IDAO<Consultation> {
         try{
             connection = DbConnection.getInstance().getConnection();
             PreparedStatement statement = connection.prepareStatement(query);
-            statement.setString(2,consultation.getDoctor().getCNP());
-            statement.setString(3,consultation.getPatient().getCNP());
-            statement.setString(4,consultation.getSpecialization().toString());
-            statement.setString(5,consultation.getDiagnosis());
-            statement.setString(6,consultation.getObservations());
-            statement.setString(7,consultation.getRecipe());
-            statement.setString(8,consultation.getTicket().toString());
+            statement.setString(1,consultation.getDoctor().getCNP());
+            statement.setString(2,consultation.getPatient().getCNP());
+            statement.setString(3,consultation.getSpecialization().toString());
+            statement.setString(4,consultation.getDiagnosis());
+            statement.setString(5,consultation.getObservations());
+            statement.setString(6,consultation.getRecipe());
+            statement.setString(7,consultation.getTicket().toString());
             java.sql.Date sqlDate = new java.sql.Date(consultation.getDate().getTime());
-            statement.setDate(9,sqlDate);
+            statement.setDate(8,sqlDate);
 
             statement.executeUpdate();
         }

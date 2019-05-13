@@ -1,16 +1,15 @@
 package DAO;
 
-import Classes.*;
+import Classes.Doctor;
+import Classes.Specialization;
 import DataBaseConnection.DbConnection;
 import Log.MyLogger;
-import org.jetbrains.annotations.NotNull;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class JPADoctorDAO implements IDAO<Doctor>{
@@ -36,7 +35,42 @@ public class JPADoctorDAO implements IDAO<Doctor>{
                 String gender = result.getString(5);
                 String address = result.getString(6);
                 String phone = result.getString(7);
-                Doctor toAdd = new Doctor(firstName,lastName,cnp,date,gender,address,phone);
+                int spec = result.getInt(8);
+                Specialization specialization = Specialization.None;
+                switch(spec){
+                    case 0:
+                        specialization = Specialization.Pediatrics;
+                        break;
+                    case 1:
+                        specialization = Specialization.Neurology;
+                        break;
+                    case 2:
+                        specialization = Specialization.Cardiology;
+                        break;
+                    case 3:
+                        specialization = Specialization.Surgery;
+                        break;
+                    case 4:
+                        specialization = Specialization.Gastroenterology;
+                        break;
+                    case 5:
+                        specialization = Specialization.FamilyMedicine;
+                        break;
+                    case 6:
+                        specialization = Specialization.LaborMedicine;
+                        break;
+                    case 7:
+                        specialization = Specialization.Ophthalmology;
+                        break;
+                    case 8:
+                        specialization = Specialization.Psychology;
+                        break;
+                    case 9:
+                        specialization = Specialization.Dentistry;
+                        break;
+                }
+
+                Doctor toAdd = new Doctor(firstName,lastName,cnp,date,gender,address,phone,specialization);
 
                 toReturn.add(toAdd);
             }
@@ -71,9 +105,42 @@ public class JPADoctorDAO implements IDAO<Doctor>{
             String gender = result.getString(5);
             String address = result.getString(6);
             String phone = result.getString(7);
-            String specialization = result.getString(8);
+            int spec = result.getInt(8);
+            Specialization specialization = Specialization.None;
+            switch(spec){
+                case 0:
+                    specialization = Specialization.Pediatrics;
+                    break;
+                case 1:
+                    specialization = Specialization.Neurology;
+                    break;
+                case 2:
+                    specialization = Specialization.Cardiology;
+                    break;
+                case 3:
+                    specialization = Specialization.Surgery;
+                    break;
+                case 4:
+                    specialization = Specialization.Gastroenterology;
+                    break;
+                case 5:
+                    specialization = Specialization.FamilyMedicine;
+                    break;
+                case 6:
+                    specialization = Specialization.LaborMedicine;
+                    break;
+                case 7:
+                    specialization = Specialization.Ophthalmology;
+                    break;
+                case 8:
+                    specialization = Specialization.Psychology;
+                    break;
+                case 9:
+                    specialization = Specialization.Dentistry;
+                    break;
+            }
 
-            Doctor doctor = new Doctor(firstName,lastName,cnp,date,gender,address,phone);
+            Doctor doctor = new Doctor(firstName,lastName,cnp,date,gender,address,phone,specialization);
             return doctor;
         }
         catch(Exception ex)
@@ -97,6 +164,7 @@ public class JPADoctorDAO implements IDAO<Doctor>{
             statement.setString(5,doctor.getGender());
             statement.setString(6,doctor.getAddress());
             statement.setString(7,doctor.getPhone());
+            statement.setInt(8,doctor.getSpecialization().getValue());
 
             statement.executeUpdate();
         }
@@ -122,7 +190,7 @@ public class JPADoctorDAO implements IDAO<Doctor>{
     @Override
     public void update(Doctor doctor)
     {
-        String query = "Update clinic.patient set first_name = ?,last_name = ?,birth_date = ?,gender = ?,address = ?,phone = ? where cnp_patient = ?";
+        String query = "Update clinic.doctor set first_name = ?,last_name = ?,birth_date = ?,gender = ?,address = ?,phone = ?, specialization = ? where cnp_doctor = ?";
         try{
             connection = DbConnection.getInstance().getConnection();
             PreparedStatement statement = connection.prepareStatement(query);
@@ -133,12 +201,13 @@ public class JPADoctorDAO implements IDAO<Doctor>{
             statement.setString(5,doctor.getAddress());
             statement.setString(6,doctor.getPhone());
             statement.setString(7,doctor.getCNP());
+            statement.setInt(8,doctor.getSpecialization().getValue());
             statement.executeUpdate();
 
 
         }
         catch(Exception ex){
-            MyLogger.Error("Update patient",ex.toString());
+            MyLogger.Error("Update doctor",ex.toString());
         }
     }
 
@@ -196,8 +265,7 @@ public class JPADoctorDAO implements IDAO<Doctor>{
                 String address = result.getString("address");
                 String phone = result.getString("phone");
 
-                Doctor doctor = new Doctor(firstName, lastName, cnp, date, gender, address, phone);
-                doctor.setSpecialization(spec);
+                Doctor doctor = new Doctor(firstName, lastName, cnp, date, gender, address, phone, spec);
                 doctors.add(doctor);
                 result.next();
             }
@@ -210,18 +278,5 @@ public class JPADoctorDAO implements IDAO<Doctor>{
         }
     }
 
-    public void makeConsultation(@NotNull String cnp_patient, Date date, String diagnosis, String observations, String recipe, PrescriptionTicket ticket)
-    {
-        try {
-            JPAPatientDAO jpatient = new JPAPatientDAO();
-            Patient p = jpatient.getById(cnp_patient);
-            Consultation cons = new Consultation(date, this.doctor, p, this.doctor.getSpecialization(), diagnosis, observations, recipe, ticket);
-            JPAConsultationDAO jcons = new JPAConsultationDAO();
-            jcons.save(cons);
-        }
-        catch(Exception ex)
-        {
-            MyLogger.Error("make consultation doctor ",ex.toString());
-        }
-    }
+
 }
