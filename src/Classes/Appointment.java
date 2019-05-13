@@ -1,49 +1,48 @@
 package Classes;
 
-import java.time.LocalDate;
+import java.util.Date;
 
 public class Appointment {
-    private Patient Patient;
-    private Doctor Doctor;
-    private Hospital hospital;
-    private LocalDate Date;
+    private int id;
+    private Patient patient;
+    private Doctor doctor;
+    private java.util.Date date;
 
-    public Appointment(Patient patient, Doctor doctor, Hospital hospital, LocalDate date) {
-        this.Patient = patient;
-        this.Doctor = doctor;
-        this.hospital = hospital;
-        this.Date = date;
+    public Appointment(Patient patient, Doctor doctor, Date date) {
+        this.patient = patient;
+        this.doctor = doctor;
+        this.date = date;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Patient getPatient() {
-        return Patient;
+        return patient;
     }
 
     public void setPatient(Patient patient) {
-        Patient = patient;
+        this.patient = patient;
     }
 
     public Doctor getDoctor() {
-        return Doctor;
+        return doctor;
     }
 
     public void setDoctor(Doctor doctor) {
-        Doctor = doctor;
+        this.doctor = doctor;
     }
 
-    public Hospital getHospital() {
-        return hospital;
+    public Date getDate() {
+        return date;
     }
 
-    public void setHospital(Hospital hospital) {
-        this.hospital = hospital;
-    }
-
-    public LocalDate getDate() {
-        return Date;
-    }
-
-    public void setDate(LocalDate date) {
-        Date = date;
+    public void setDate(Date date) {
+        this.date = date;
     }
 }

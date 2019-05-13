@@ -1,35 +1,30 @@
 package Classes;
 
-import Classes.Address;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
-import java.time.LocalDate;
-import java.time.Period;
-import java.time.format.DateTimeFormatter;
 
-
-public class Person {
+public abstract class Person {
     private String FirstName;
     private String LastName;
     private String CNP;
-    private LocalDate DateOfBirth;
-    private int Age;
+    private Date DateOfBirth;
     private String Gender;
-    private Classes.Address Address;
+    private String Address;
     private String Phone;
 
-    protected Person(String firstName, String lastName, String cnp, String birthDate, int age, String gender,
-                  String street, int streetNumber, String building, int floor, int apRoom)
-    {
+    protected Person(String firstName, String lastName, String cnp, String birthDate, String gender,
+                  String address, String phone) throws ParseException {
         this.FirstName = firstName;
         this.LastName = lastName;
         this.CNP = cnp;
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        this.DateOfBirth = LocalDate.parse(birthDate, formatter);
-
-        LocalDate currentDate = LocalDate.now();
-        this.Age = Period.between(DateOfBirth, currentDate).getYears();
+        DateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
+        this.DateOfBirth = formatter.parse(birthDate);
         this.Gender = gender;
-        setAddress(street, streetNumber, building, floor, apRoom);
+        this.Phone = phone;
+        this.Address = address;
     }
 
     public void setFirstName(String firstName) {
@@ -44,13 +39,10 @@ public class Person {
         this.CNP = CNP;
     }
 
-    public void setDateOfBirth(LocalDate dateOfBirth) {
+    public void setDateOfBirth(Date dateOfBirth) {
         DateOfBirth = dateOfBirth;
     }
 
-    public void setAge(int age) {
-        Age = age;
-    }
 
     public void setGender(String gender) {
         Gender = gender;
@@ -61,13 +53,9 @@ public class Person {
     }
 
 
-    public void setAddress(String street, int streetNumber, String building, int floor, int apRoom)
+    public void setAddress(String address)
     {
-        this.Address.setStreet(street);
-        this.Address.setStreetNumber(streetNumber);
-        this.Address.setBuilding(building);
-        this.Address.setFloor(floor);
-        this.Address.setApartmentOrRoom(apRoom);
+        this.Address = address;
     }
 
     public String getFirstName() {
@@ -82,19 +70,15 @@ public class Person {
         return CNP;
     }
 
-    public LocalDate getDateOfBirth() {
+    public Date getDateOfBirth() {
         return DateOfBirth;
-    }
-
-    public int getAge() {
-        return Age;
     }
 
     public String getGender() {
         return Gender;
     }
 
-    public Address getAddress() {
+    public String getAddress() {
         return Address;
     }
 
