@@ -3,7 +3,6 @@ package Classes;
 import DAO.JPAConsultationDAO;
 import DAO.JPAPatientDAO;
 import Log.MyLogger;
-import org.jetbrains.annotations.NotNull;
 
 import java.text.ParseException;
 import java.util.Date;
@@ -27,7 +26,7 @@ public class Doctor extends Person {
         specialization = specialization2;
     }
 
-    public void makeConsultation(@NotNull String cnp_patient, Date date, String diagnosis, String observations, String recipe, PrescriptionTicket ticket)
+    public void makeConsultation(String cnp_patient, Date date, String diagnosis, String observations, String recipe, PrescriptionTicket ticket)
     {
         try {
             JPAPatientDAO jpatient = new JPAPatientDAO();
