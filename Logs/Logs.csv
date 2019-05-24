@@ -1,0 +1,333 @@
+2019-05-23 13:10:50.038,patient frame,aiiiici,
+2019-05-23 13:29:15.125,patient frame,patient menu,
+2019-05-23 13:29:19.384,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 13:30:08.188,patient frame,patient menu,
+2019-05-23 13:34:27.983,patient frame,patient menu,
+2019-05-23 13:34:41.682,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 13:34:46.055,patient frame,patient menu,
+2019-05-23 14:01:41.144,patient frame,patient menu,
+2019-05-23 14:04:05.126,patient frame,patient menu,
+2019-05-23 14:04:13.645,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 14:04:37.3,patient frame,patient menu,
+2019-05-23 14:05:00.687,patient frame,patient menu,
+2019-05-23 14:05:09.802,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 14:07:25.103,patient frame,patient menu,
+2019-05-23 14:07:28.51,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 14:41:49.237,patient frame,patient menu,
+2019-05-23 14:41:54.816,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 14:44:51.358,patient frame,patient menu,
+2019-05-23 14:44:54.521,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 14:45:51.939,patient frame,patient menu,
+2019-05-23 14:45:55.814,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:02:05.028,patient frame,patient menu,
+2019-05-23 15:02:08.591,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:02:10.279,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:02:10.369,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:02:10.389,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:02:10.425,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:07.493,patient frame,patient menu,
+2019-05-23 15:05:12.657,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:14.144,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:14.165,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:14.185,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:14.204,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.155,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.17,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.183,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.21,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.453,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.464,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.478,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.492,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.654,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.666,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.692,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:16.833,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.292,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.306,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.318,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.331,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.501,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.514,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.526,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.536,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.698,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.71,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.721,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.733,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.895,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.907,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.918,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:21.928,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:22.239,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:22.251,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:22.262,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:22.272,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:22.448,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:22.459,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:22.47,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:05:22.48,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:06:42.244,patient frame,patient menu,
+2019-05-23 15:06:45.767,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:06:47.562,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:06:47.585,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:06:47.601,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:06:47.62,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,
+2019-05-23 15:09:06.924,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:09:10.808,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:09:12.149,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:09:12.174,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:09:12.191,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:09:12.212,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:10:25.234,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:10:39.824,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:10:43.807,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:10:43.828,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:10:43.846,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:10:43.867,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:13:36.141,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:13:39.532,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:13:40.974,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:13:40.996,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:13:41.014,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:13:41.032,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:13:41.038,show appointments for patient,java.lang.NullPointerException,AWT-EventQueue-0
+2019-05-23 15:14:01.408,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:14:05.267,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:14:06.669,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:14:06.691,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:14:06.707,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:14:06.729,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:14:41.77,show appointments for patient,java.lang.NullPointerException,AWT-EventQueue-0
+2019-05-23 15:15:50.959,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:15:54.571,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:15:56.09,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:15:56.111,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:15:56.126,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:15:56.143,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:16:26.91,show appointments for patient,java.lang.NullPointerException,AWT-EventQueue-0
+2019-05-23 15:19:38.777,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:19:42.833,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:19:43.985,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:19:44.007,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:19:44.029,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:19:44.048,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:11.01,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:20:14.393,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:15.666,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:15.688,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:15.706,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:15.723,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:22.354,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:22.369,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:22.395,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:22.414,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:41.37,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:20:44.499,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:45.733,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:45.757,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:45.773,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:20:45.791,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:03.196,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:22:06.178,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:07.289,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:07.309,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:07.326,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:07.347,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:41.901,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:22:44.904,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:45.842,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:45.863,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:45.881,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:22:45.902,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:23:00.625,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:23:03.5,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:23:04.544,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:23:04.565,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:23:04.58,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:23:04.596,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:16.011,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 15:25:19.169,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:20.869,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:20.89,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:20.91,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:20.93,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:25.245,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:25.262,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:25.278,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 15:25:25.293,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:33:06.038,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 16:33:09.919,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:33:14.012,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:33:14.065,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:33:14.081,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:33:14.106,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:38:39.593,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 16:38:50.186,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:38:52.06,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:38:52.084,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:38:52.105,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:38:52.128,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:39:06.08,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:39:06.098,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:39:06.112,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:39:06.126,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:37.718,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 16:42:41.812,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:43.558,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:43.58,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:43.602,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:43.62,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:46.348,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:46.354,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:46.358,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:56.167,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:56.182,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:56.199,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:56.214,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:57.534,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:57.538,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:42:57.542,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:47:48.439,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 16:47:51.829,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:49:53.604,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 16:50:08.846,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:51:39.132,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:51:39.137,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:51:39.143,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:53:05.241,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 16:53:08.628,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:53:12.264,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 16:53:40.856,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:53:44.195,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:53:44.199,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 16:53:44.203,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 17:09:39.871,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 17:09:44.552,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 17:10:50.398,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 17:10:50.405,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 17:10:50.41,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:33:43.413,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 18:34:20.706,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:34:20.826,submit button make app patient,"java.text.ParseException: Unparseable date: ""2019-05-30""",AWT-EventQueue-0
+2019-05-23 18:34:24.478,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:34:24.483,submit button make app patient,"java.text.ParseException: Unparseable date: ""2019-05-30""",AWT-EventQueue-0
+2019-05-23 18:34:25.011,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:34:25.016,submit button make app patient,"java.text.ParseException: Unparseable date: ""2019-05-30""",AWT-EventQueue-0
+2019-05-23 18:34:25.285,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:34:25.289,submit button make app patient,"java.text.ParseException: Unparseable date: ""2019-05-30""",AWT-EventQueue-0
+2019-05-23 18:34:25.474,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:34:25.479,submit button make app patient,"java.text.ParseException: Unparseable date: ""2019-05-30""",AWT-EventQueue-0
+2019-05-23 18:36:48.065,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 18:37:07.167,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:37:11.827,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:37:19.132,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:37:19.137,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:37:19.141,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:38:06.901,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 18:38:23.183,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:38:24.476,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:38:24.505,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:38:28.974,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:38:28.979,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:38:28.984,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 18:40:02.384,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 19:17:04.332,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:07.896,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:07.932,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:07.979,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:08.009,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:08.018,show appointments for patient,java.lang.NullPointerException,AWT-EventQueue-0
+2019-05-23 19:17:10.113,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:10.139,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:10.162,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:10.183,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:17:10.187,show appointments for patient,java.lang.NullPointerException,AWT-EventQueue-0
+2019-05-23 19:20:13.847,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:20:59.544,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:21:00.229,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:21:00.975,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:21:01.699,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:21:01.703,show appointments for patient,java.lang.NullPointerException,AWT-EventQueue-0
+2019-05-23 19:21:27.617,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:21:28.3,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:21:29.011,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:21:29.732,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:23:10.12,show appointments for patient,java.lang.NullPointerException,AWT-EventQueue-0
+2019-05-23 19:37:34.026,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 19:37:57.231,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:37:59.319,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:37:59.337,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:37:59.357,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:37:59.376,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:37:59.391,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 19:37:59.411,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:38:23.415,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:41:01.438,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:41:06.484,make consultation doc menu,"java.text.ParseException: Unparseable date: """"",AWT-EventQueue-0
+2019-05-23 21:41:10.468,make consultation doc menu,"java.text.ParseException: Unparseable date: """"",AWT-EventQueue-0
+2019-05-23 21:43:36.57,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:44:01.239,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 21:45:27.538,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:47:09.889,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:47:52.116,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:48:23.809,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:51:29.894,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 21:51:49.355,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:52:26.581,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:52:26.714,save appointment,java.sql.SQLSyntaxErrorException: Unknown column 'app_date' in 'field list',AWT-EventQueue-0
+2019-05-23 21:52:38.823,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:52:38.827,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:52:38.831,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:53:09.861,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:55:23.768,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 21:56:37.025,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:57:17.787,save appointment,java.sql.SQLSyntaxErrorException: Unknown column 'app_date' in 'field list',AWT-EventQueue-0
+2019-05-23 21:57:51.297,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 21:58:17.8,save appointment,java.sql.SQLSyntaxErrorException: Unknown column 'app_date' in 'field list',AWT-EventQueue-0
+2019-05-23 22:01:05.94,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:01:27.051,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 22:01:44.236,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:01:47.634,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:02:04.352,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:02:05.562,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:07.921,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 22:16:14.799,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:18.081,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:18.085,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:18.09,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:19.479,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:19.496,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:19.523,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:19.542,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:19.557,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:16:19.577,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:05.446,patient frame,patient menu,AWT-EventQueue-0
+2019-05-23 22:17:17.31,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:18.736,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:18.761,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:18.783,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:18.801,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:21.529,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:21.535,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:21.541,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:22.564,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:22.578,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:22.597,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:17:22.625,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:18:09.494,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:18:09.513,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:18:11.029,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:18:11.042,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:18:11.057,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:18:11.069,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:18:11.082,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-23 22:18:11.095,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-24 07:50:12.903,patient frame,patient menu,AWT-EventQueue-0
+2019-05-24 07:50:30.823,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-24 07:50:58.331,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-24 07:50:58.335,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-24 07:50:58.339,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-24 07:51:02.42,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-24 07:51:02.424,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0
+2019-05-24 07:51:02.432,parse address ,java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1,AWT-EventQueue-0

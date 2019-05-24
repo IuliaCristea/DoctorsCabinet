@@ -13,8 +13,6 @@ public class Main {
         }
         catch(Exception ex){
             MyLogger.Error("SwingUI.MainFrame", ex.toString());
-            MyLogger.Error("SwingUI.MainFrame", ex.getStackTrace().toString());
         }
-        MyLogger.CloseLogging();
     }
 }

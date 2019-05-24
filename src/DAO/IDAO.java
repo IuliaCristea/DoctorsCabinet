@@ -1,11 +1,11 @@
 package DAO;
 
-import java.util.List;
+import java.util.Set;
 
 public interface IDAO<T> {
     T getById(String id);
 
-    List<T> getAll();
+    Set<T> getAll();
 
     void save(T t);
 

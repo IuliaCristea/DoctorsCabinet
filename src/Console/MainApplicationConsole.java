@@ -28,7 +28,6 @@ public class MainApplicationConsole {
          }
         catch(Exception ex){
             MyLogger.Error("PatientOrDoctor", ex.toString());
-            MyLogger.Error(ex.getStackTrace(), ex);
         }
      }
 }

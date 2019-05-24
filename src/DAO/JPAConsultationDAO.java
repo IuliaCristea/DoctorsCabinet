@@ -8,19 +8,17 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class JPAConsultationDAO implements IDAO<Consultation> {
     private Connection connection;
 
     @Override
-    public List<Consultation> getAll()
+    public Set<Consultation> getAll()
     {
         ResultSet result = null;
         String query = "SELECT * FROM clinic.consultation";
-        List<Consultation> toReturn = new ArrayList<>();
+        Set<Consultation> toReturn = new HashSet<>();
 
         try {
             connection = DbConnection.getInstance().getConnection();
@@ -95,7 +93,7 @@ public class JPAConsultationDAO implements IDAO<Consultation> {
         catch(Exception ex)
         {
             MyLogger.Error("getAll(Consultations) ",ex.toString());
-            return new ArrayList<>();
+            return new HashSet<>();
         }
 
         return toReturn;

@@ -14,7 +14,7 @@
       <inheritsPopupMenu value="false"/>
       <minimumSize width="500" height="500"/>
       <opaque value="true"/>
-      <preferredSize width="600" height="300"/>
+      <preferredSize width="600" height="600"/>
       <requestFocusEnabled value="false"/>
     </properties>
     <border type="bevel-raised">

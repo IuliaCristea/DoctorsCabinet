@@ -1,89 +1,60 @@
 package Classes;
 
-import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 
 public abstract class Person {
-    private String FirstName;
-    private String LastName;
-    private String CNP;
-    private Date DateOfBirth;
-    private String Gender;
-    private String Address;
-    private String Phone;
+    private String firstName;
+    private String lastName;
+    private String cnp;
+    private String birthDate;
+    private String gender;
+    private Address address;
+    private String phone;
 
     protected Person(String firstName, String lastName, String cnp, String birthDate, String gender,
                   String address, String phone) throws ParseException {
-        this.FirstName = firstName;
-        this.LastName = lastName;
-        this.CNP = cnp;
-        DateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
-        this.DateOfBirth = formatter.parse(birthDate);
-        this.Gender = gender;
-        this.Phone = phone;
-        this.Address = address;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.cnp = cnp;
+        this.birthDate = birthDate;
+        this.gender = gender;
+        this.phone = phone;
+        this.address = new Address(address);
     }
 
-    public void setFirstName(String firstName) {
-        FirstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        LastName = lastName;
-    }
-
-    public void setCNP(String CNP) {
-        this.CNP = CNP;
-    }
-
-    public void setDateOfBirth(Date dateOfBirth) {
-        DateOfBirth = dateOfBirth;
-    }
-
-
-    public void setGender(String gender) {
-        Gender = gender;
-    }
-
-    public void setPhone(String phone) {
-        Phone = phone;
-    }
-
-
-    public void setAddress(String address)
-    {
-        this.Address = address;
-    }
 
     public String getFirstName() {
-        return FirstName;
+        return firstName;
     }
 
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     public String getCNP() {
-        return CNP;
+        return cnp;
     }
 
-    public Date getDateOfBirth() {
-        return DateOfBirth;
+    public String getDateOfBirth() {
+        return birthDate;
     }
 
     public String getGender() {
-        return Gender;
+        return gender;
     }
 
-    public String getAddress() {
-        return Address;
+    public Address getAddress() {
+        return address;
+    }
+
+    public String getAddressString(){
+        String s = this.address.getStreet() + " " + this.address.getBuilding() + " " + this.address.getApartment() + " " + this.address.getTown();
+        return s;
     }
 
     public String getPhone() {
-        return Phone;
+        return phone;
     }
 
 }

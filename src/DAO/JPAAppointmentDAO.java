@@ -10,20 +10,18 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class JPAAppointmentDAO implements IDAO<Appointment>
 {
     private Connection connection;
 
     @Override
-    public List<Appointment> getAll()
+    public Set<Appointment> getAll()
     {
         ResultSet result = null;
         String query = "SELECT * FROM clinic.appointment";
-        List<Appointment> toReturn = new ArrayList<>();
+        Set<Appointment> toReturn = new HashSet<>();
 
         try {
             connection = DbConnection.getInstance().getConnection();
@@ -49,7 +47,7 @@ public class JPAAppointmentDAO implements IDAO<Appointment>
         catch(Exception ex)
         {
             MyLogger.Error("getAll(Appointments)",ex.toString());
-            return new ArrayList<>();
+            return new HashSet<>();
         }
 
         return toReturn;

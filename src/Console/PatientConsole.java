@@ -174,7 +174,7 @@ public class PatientConsole {
         Doctor doc = jdoc.getById(cnp);
         DateFormat formatter = new SimpleDateFormat("dd-mm-yyyy");
         Date date2 = formatter.parse(date);
-        jpaPatientDAO.makeAppointment(this.patient,doc,date2);
+        //jpaPatientDAO.makeAppointment(this.patient,doc,date2);
 
 
     }

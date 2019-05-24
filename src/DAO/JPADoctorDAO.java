@@ -10,7 +10,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class JPADoctorDAO implements IDAO<Doctor>{
     private Connection connection;
@@ -18,10 +20,10 @@ public class JPADoctorDAO implements IDAO<Doctor>{
 
 
     @Override
-    public List<Doctor> getAll(){
+    public Set<Doctor> getAll(){
         ResultSet result = null;
         String query = "SELECT * FROM clinic.doctor";
-        List<Doctor> toReturn = new ArrayList<>();
+        Set<Doctor> toReturn = new HashSet<>();
 
         try {
             connection = DbConnection.getInstance().getConnection();
@@ -79,7 +81,7 @@ public class JPADoctorDAO implements IDAO<Doctor>{
         catch(Exception ex)
         {
             MyLogger.Error("getAll(Doctors)",ex.toString());
-            return new ArrayList<>();
+            return new HashSet<>();
         }
 
         return toReturn;
@@ -162,7 +164,7 @@ public class JPADoctorDAO implements IDAO<Doctor>{
             statement.setString(3,doctor.getLastName());
             statement.setString(4,doctor.getDateOfBirth().toString());
             statement.setString(5,doctor.getGender());
-            statement.setString(6,doctor.getAddress());
+            statement.setString(6,doctor.getAddressString());
             statement.setString(7,doctor.getPhone());
             statement.setInt(8,doctor.getSpecialization().getValue());
 
@@ -198,7 +200,7 @@ public class JPADoctorDAO implements IDAO<Doctor>{
             statement.setString(2,doctor.getLastName());
             statement.setString(3,doctor.getDateOfBirth().toString());
             statement.setString(4,doctor.getGender());
-            statement.setString(5,doctor.getAddress());
+            statement.setString(5,doctor.getAddressString());
             statement.setString(6,doctor.getPhone());
             statement.setString(7,doctor.getCNP());
             statement.setInt(8,doctor.getSpecialization().getValue());
@@ -273,7 +275,7 @@ public class JPADoctorDAO implements IDAO<Doctor>{
         }
         catch(Exception ex)
         {
-            MyLogger.Error("get doctor by id",ex.toString());
+            MyLogger.Error("get doctor by specialization",ex.toString());
             return null;
         }
     }

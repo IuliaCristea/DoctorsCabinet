@@ -12,7 +12,6 @@ public class MainFrame {
     private JButton doctorButton;
 
     public MainFrame(){
-
         mainFrame= new JFrame("MainMenu");
         mainFrame.setContentPane(this.MainMenu);
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -22,15 +21,18 @@ public class MainFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //JOptionPane.showMessageDialog(null,"hi");
-                JFrame frame = new JFrame("PatientMenu");
-                frame.setContentPane(new PatientFrame().getPatientMenu());
-                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.pack();
-                frame.setVisible(true);
-                mainFrame.setVisible(false);
+                new PatientFrame();
+                mainFrame.dispose();
             }
         });
 
+        doctorButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new DoctorFrame();
+                mainFrame.dispose();
+            }
+        });
     }
 
     public JPanel getMainMenu() {

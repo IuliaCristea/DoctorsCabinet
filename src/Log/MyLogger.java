@@ -1,7 +1,8 @@
 package Log;
 
-import java.io.*;
-import java.time.LocalDate;
+import java.io.File;
+import java.io.FileWriter;
+import java.sql.Timestamp;
 
 public class MyLogger {
     private static File logFile;
@@ -13,8 +14,8 @@ public class MyLogger {
 
     public static void Initialize(){
         try {
-            logFile = new File("Logs/Logs.txt");
-            fileWriter = new FileWriter(logFile, true);
+            logFile = new File("Logs/Logs.csv");
+
         }
         catch(Exception ex){
             System.out.println(ex);
@@ -22,9 +23,18 @@ public class MyLogger {
     }
     public static void Info(String methodName, String message) {
         try {
-            String defaultMessage = String.format(LocalDate.now() + methodName + message);
-            fileWriter.append(defaultMessage);
+            Timestamp time = new Timestamp(System.currentTimeMillis());
+            Thread th = Thread.currentThread();
+            fileWriter = new FileWriter(logFile, true);
+            fileWriter.append(time.toString());
+            fileWriter.append(",");
+            fileWriter.append(methodName);
+            fileWriter.append(",");
+            fileWriter.append(message);
+            fileWriter.append(",");
+            fileWriter.append(th.getName());
             fileWriter.append("\n");
+            CloseLogging();
         }
         catch(Exception ex)
         {
@@ -33,23 +43,21 @@ public class MyLogger {
     }
     public static void Error(String methodName, String message){
         try {
-            String defaultMessage = String.format(LocalDate.now() + methodName + message);
-            fileWriter.append(defaultMessage);
+            fileWriter = new FileWriter(logFile, true);
+            Timestamp time = new Timestamp(System.currentTimeMillis());
+            Thread th = Thread.currentThread();
+            fileWriter.append(time.toString());
+            fileWriter.append(",");
+            fileWriter.append(methodName);
+            fileWriter.append(",");
+            fileWriter.append(message);
+            fileWriter.append(",");
+            fileWriter.append(th.getName());
             fileWriter.append("\n");
+            CloseLogging();
         }
         catch(Exception ex){
             System.out.println(ex);
-        }
-    }
-
-    public static void Error(StackTraceElement[] stackTrace, Exception ex){
-        try {
-            ex.printStackTrace();
-            fileWriter.append(ex.getMessage());
-            fileWriter.append("\n");
-        }
-        catch(Exception e){
-            System.out.println(e);
         }
     }
 

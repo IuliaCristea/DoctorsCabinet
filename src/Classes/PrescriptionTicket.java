@@ -3,7 +3,8 @@ package Classes;
 public enum PrescriptionTicket {
     None(0),
     MedicalTests(1),
-    XRays(2);
+    XRays(2),
+    ORL(3);
 
     private final int value;
     private PrescriptionTicket(int value) {

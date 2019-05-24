@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SwingUI.MakeAppointmentFrame">
+  <grid id="27dc6" binding="makeApp" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="600" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="68869" binding="bar" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-16775303"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="93b6f" class="javax.swing.JLabel" binding="iuliaClinic">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="26" style="2"/>
+              <text value="Iulia's Medical Clinic"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="568b1" binding="menu" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-16524841"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7654d" class="javax.swing.JLabel" binding="mkApp">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Century Gothic" size="20" style="0"/>
+              <text value="Make an appointment:"/>
+            </properties>
+          </component>
+          <grid id="c08e6" binding="infoCnp" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+            </constraints>
+            <properties>
+              <background color="-16524841"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7cdce" class="javax.swing.JLabel" binding="cnpDoc">
+                <constraints/>
+                <properties>
+                  <font size="18"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Introduce doctor's cnp:"/>
+                </properties>
+              </component>
+              <component id="178a" class="javax.swing.JTextField" binding="cnpInput">
+                <constraints/>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-14475162"/>
+                  <focusTraversalPolicyProvider value="false"/>
+                  <foreground color="-2"/>
+                  <preferredSize width="200" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d94f6" binding="infoData" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+            </constraints>
+            <properties>
+              <background color="-16524841"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="cf5aa" class="javax.swing.JLabel" binding="dateLabel">
+                <constraints/>
+                <properties>
+                  <font size="18"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Introduce date:"/>
+                </properties>
+              </component>
+              <component id="aef59" class="javax.swing.JTextField" binding="dateInput">
+                <constraints/>
+                <properties>
+                  <background color="-14475162"/>
+                  <focusTraversalPolicyProvider value="false"/>
+                  <foreground color="-2"/>
+                  <preferredSize width="200" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ad059" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16524841"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1256c" class="javax.swing.JButton" binding="submitButton">
+                <constraints/>
+                <properties>
+                  <text value="Submit"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

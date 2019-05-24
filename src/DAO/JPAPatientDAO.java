@@ -1,17 +1,15 @@
 package DAO;
 
-import Classes.Appointment;
-import Classes.Doctor;
 import Classes.Patient;
 import DataBaseConnection.DbConnection;
 import Log.MyLogger;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class JPAPatientDAO implements IDAO<Patient> {
 
@@ -19,11 +17,11 @@ public class JPAPatientDAO implements IDAO<Patient> {
     private Patient patient;
 
     @Override
-    public List<Patient> getAll()
+    public Set<Patient> getAll()
     {
         ResultSet result = null;
         String query = "SELECT * FROM clinic.patient";
-        List<Patient> toReturn = new ArrayList<>();
+        Set<Patient> toReturn = new HashSet<Patient>();
 
         try {
             connection = DbConnection.getInstance().getConnection();
@@ -48,7 +46,7 @@ public class JPAPatientDAO implements IDAO<Patient> {
         catch(Exception ex)
         {
             MyLogger.Error("getAll(Patients)",ex.toString());
-            return new ArrayList<>();
+            return new HashSet<>();
         }
 
         return toReturn;
@@ -96,7 +94,7 @@ public class JPAPatientDAO implements IDAO<Patient> {
             statement.setString(3,patient.getLastName());
             statement.setString(4,patient.getDateOfBirth().toString());
             statement.setString(5,patient.getGender());
-            statement.setString(6,patient.getAddress());
+            statement.setString(6,patient.getAddressString());
             statement.setString(7,patient.getPhone());
 
             statement.executeUpdate();
@@ -132,26 +130,13 @@ public class JPAPatientDAO implements IDAO<Patient> {
             statement.setString(2,patient.getLastName());
             statement.setString(3,patient.getDateOfBirth().toString());
             statement.setString(4,patient.getGender());
-            statement.setString(5,patient.getAddress());
+            statement.setString(5,patient.getAddressString());
             statement.setString(6,patient.getPhone());
             statement.setString(7,patient.getCNP());
             statement.executeUpdate();
         }
         catch(Exception ex){
             MyLogger.Error("Update patient",ex.toString());
-        }
-    }
-
-    public void makeAppointment(Patient patient, Doctor doctor, Date date)
-    {
-        try{
-            JPAAppointmentDAO japp = new JPAAppointmentDAO();
-            Appointment app = new Appointment(patient,doctor,date);
-            japp.save(app);
-        }
-        catch(Exception ex)
-        {
-            MyLogger.Error("makeAppointment ",ex.toString());
         }
     }
 
